@@ -4,12 +4,11 @@ import click
 
 
 @click.command()
-def main(args=None):
-    """Console script for advent_of_code_2022."""
-    click.echo("Replace this message by putting your code into "
-               "advent_of_code_2022.cli.main")
-    click.echo("See click documentation at https://click.palletsprojects.com/")
-    return 0
+@click.argument('day')
+def main(day):
+    if day == "dayone":
+        from advent_of_code_2022.dayone import calorie_counting
+
 
 
 if __name__ == "__main__":
