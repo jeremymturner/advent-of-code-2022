@@ -8,6 +8,9 @@ import click
 def main(day):
     if day == "dayone":
         from advent_of_code_2022.dayone import calorie_counting
+    
+    if day == "daytwo":
+        from advent_of_code_2022.daytwo import rock_paper_scissors
 
 
 
