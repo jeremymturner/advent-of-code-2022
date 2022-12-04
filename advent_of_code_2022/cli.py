@@ -12,6 +12,9 @@ def main(day):
     if day == "daytwo":
         from advent_of_code_2022.daytwo import rock_paper_scissors
 
+    if day == "daythree":
+        from advent_of_code_2022.daythree import rutsack
+
 
 
 if __name__ == "__main__":
