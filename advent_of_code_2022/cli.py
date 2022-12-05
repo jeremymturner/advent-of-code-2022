@@ -15,7 +15,8 @@ def main(day):
     if day == "daythree":
         from advent_of_code_2022.daythree import rutsack
 
-
+    if day == "dayfour":
+        from advent_of_code_2022.dayfour import cleanup
 
 if __name__ == "__main__":
     sys.exit(main())  # pragma: no cover
