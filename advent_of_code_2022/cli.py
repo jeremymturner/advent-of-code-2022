@@ -17,6 +17,9 @@ def main(day):
 
     if day == "dayfour":
         from advent_of_code_2022.dayfour import cleanup
+    
+    if day == "dayfive":
+        from advent_of_code_2022.dayfive import supply
 
 if __name__ == "__main__":
     sys.exit(main())  # pragma: no cover
