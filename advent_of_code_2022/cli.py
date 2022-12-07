@@ -20,6 +20,9 @@ def main(day):
     
     if day == "dayfive":
         from advent_of_code_2022.dayfive import supply
+    
+    if day == "daysix":
+        from advent_of_code_2022.daysix import tuning
 
 if __name__ == "__main__":
     sys.exit(main())  # pragma: no cover
