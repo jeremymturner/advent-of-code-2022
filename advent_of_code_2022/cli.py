@@ -24,5 +24,8 @@ def main(day):
     if day == "daysix":
         from advent_of_code_2022.daysix import tuning
 
+    if day == "dayseven":
+        from advent_of_code_2022.dayseven import nospace
+
 if __name__ == "__main__":
     sys.exit(main())  # pragma: no cover
